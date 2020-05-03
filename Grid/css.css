@@ -1,0 +1,68 @@
+body {
+    font-size: 16px;
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainframe {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.Logo_Navigation {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.box {
+    background-color: gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Logo {
+    text-align: left;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.Navigation {
+    height: 30px;
+    line-height: 30px;
+}
+
+.Header_Banner {
+    height: 100px;
+    line-height: 100px;
+}
+
+.IntroTextArea {
+    height: 90px;
+    line-height: 90px;
+}
+
+.bigbox {
+    display: grid;
+    grid-template-columns: calc(33.3333% - 6.6px) calc(33.3333% - 6.6px) calc(33.3333% - 6.6px);
+    grid-column-gap: 10px;
+    line-height: 200px;
+    font-size: 20px;
+}
+
+.background_text {
+    flex-grow: 0.05;
+    transform: rotate(-90deg);
+    height: 500px;
+    line-height: 500px;
+    font-size: 20px;
+    color: rgb(163, 163, 137);
+}
+
+.bigbox div {
+    height: 200px;
+}
